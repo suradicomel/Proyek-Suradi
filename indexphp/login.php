@@ -60,6 +60,11 @@ $username=$_SESSION['username'];
     
 <div class="dashboard-container">
     <h2>Welcome to the Dashboard</h2>
+
+    <div class="welcome">
+        <p>selamat datang,<php echo htmlspecialchars($username);?>!</p>
+        <p>Anda berhasil login ke sitem!</p>
+    </div>
     
 </body>
 </html>
