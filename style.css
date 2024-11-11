@@ -21,3 +21,9 @@ body{
 h2{
     margin-battom:20px;
 }
+
+label{
+    font-weight:bold;
+    display:block;
+    margin-top:10px;
+}
