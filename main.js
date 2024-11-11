@@ -8,4 +8,6 @@ ent.getElementById("error-msg"function validateForm(){
         return false
     }
 
+    //additional validation can be added here
+    return true;
 }
