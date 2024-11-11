@@ -58,5 +58,8 @@ $username=$_SESSION['username'];
 </head>
 <body>
     
+<div class="dashboard-container">
+    <h2>Welcome to the Dashboard</h2>
+    
 </body>
 </html>
