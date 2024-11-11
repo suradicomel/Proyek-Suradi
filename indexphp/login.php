@@ -35,6 +35,11 @@ $username=$_SESSION['username'];
             text-align:center;
             color:#333;
         }
+        .welcome{
+            text-align:center;
+            font-size:20px;
+            margin:20px 0;
+        }
     </style>
 </head>
 <body>
