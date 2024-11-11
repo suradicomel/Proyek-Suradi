@@ -65,6 +65,12 @@ $username=$_SESSION['username'];
         <p>selamat datang,<php echo htmlspecialchars($username);?>!</p>
         <p>Anda berhasil login ke sitem!</p>
     </div>
-    
+
+    <div class="logout">
+        <a href="logout.php">logout</a>
+    </div>
+    </div>
+
+  
 </body>
 </html>
