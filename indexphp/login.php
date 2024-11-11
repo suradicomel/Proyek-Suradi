@@ -31,6 +31,10 @@ $username=$_SESSION['username'];
             border-radius:8px;
             box-shadow:0 0 10px rgba(0, 0, 0.1);
         }
+        h2{
+            text-align:center;
+            color:#333;
+        }
     </style>
 </head>
 <body>
