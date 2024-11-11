@@ -44,6 +44,13 @@ $username=$_SESSION['username'];
             text-align:center;
             margin-top:20px;
         }
+        a{
+            padding:10px20px;
+            beckground-color:#4CAF50;
+            color:white;
+            tekt-decoration:none;
+            border-radius:4px;
+        }
     </style>
 </head>
 <body>
