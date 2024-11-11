@@ -67,7 +67,7 @@ $username=$_SESSION['username'];
     </div>
 
     <div class="logout">
-        <a href="logout.php">logout</a>
+        <a href="logout.php">logout.</a>
     </div>
     </div>
 
