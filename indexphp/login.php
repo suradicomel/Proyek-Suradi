@@ -40,6 +40,10 @@ $username=$_SESSION['username'];
             font-size:20px;
             margin:20px 0;
         }
+        .logout{
+            text-align:center;
+            margin-top:20px;
+        }
     </style>
 </head>
 <body>
