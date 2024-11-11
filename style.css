@@ -27,3 +27,11 @@ label{
     display:block;
     margin-top:10px;
 }
+
+input[type="tekt"],input[type="password"]{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    boder:1px solid ##ddd;
+    border-radius:4px;
+}
