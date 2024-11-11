@@ -51,6 +51,9 @@ $username=$_SESSION['username'];
             tekt-decoration:none;
             border-radius:4px;
         }
+        a:haver{
+            beckground-color:#45a049;
+        }
     </style>
 </head>
 <body>
