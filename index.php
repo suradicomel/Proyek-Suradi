@@ -21,3 +21,28 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     }
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Mahasiswa</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login mahasiswa</h2>
+        <form method="POST" onsubmit="return validateForm()">
+            <label for="nim">NIM:</label>
+            <input type="text"id="nim"name="nim"required>
+            <label for="password">password:</label>
+            <input type="password"id="password"name="password"required>
+            <button type="submit">Login</button>
+            <p id="error-msg"></p>
+</form>
+</div>
+<script src="main.js"></script>
+    
+</body>
+</html>
