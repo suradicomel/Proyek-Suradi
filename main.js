@@ -3,4 +3,9 @@ ent.getElementById("error-msg"function validateForm(){
     const password=document.getElementById("password").value;
     const errorMsg=document.getElementById("error-msg");
 
+    if(nim===""||pasword===""){
+        errorMsg.textContent="NIM dan password harus diisi";
+        return false
+    }
+
 }
