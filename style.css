@@ -19,7 +19,7 @@ body{
 }
 
 h2{
-    margin-battom:20px;
+    margin-bottom:20px;
 }
 
 label{
@@ -32,6 +32,19 @@ input[type="tekt"],input[type="password"]{
     width:100%;
     padding:8px;
     margin-top:5px;
-    boder:1px solid ##ddd;
+    border:1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    margin-top:20px;
+    width:100%;
+    border:none;
+    padding:10px;
+    background-color:#5cb85c;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
     border-radius:4px;
+
 }
