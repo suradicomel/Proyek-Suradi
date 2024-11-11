@@ -9,4 +9,15 @@ $valid_password="user123";
 if($_SERVER["REQUEST_METHOD"]=="POST"){
     $nim=$_POST["nim"];
     $password=$_POST["password"];
+
+    //Chekc if NIM exists and password matches
+    if($nim===$valid_nim&&$password===$valid_password){
+        $_SESSION["nim"]=$nim;
+        header("Location:indexphp/login.php");
+        exit();
+    }else{
+        echo"<script>alert('NIM atau password salah!);window.location.href='index.php';</script>";
+        exit();
+    }
 }
+?>
