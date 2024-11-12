@@ -13,7 +13,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     //Chekc if NIM exists and password matches
     if($nim===$valid_nim&&$password===$valid_password){
         $_SESSION["nim"]=$nim;
-        header("Location:indexphp/login.php");
+        header("Location:login/login.php");
         exit();
     }else{
         echo"<script>alert('NIM atau password salah!);window.location.href='index.php';</script>";
@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 <body>
     <div class="login-container">
         <h2>Login mahasiswa</h2>
-        <form method="POST" onsubmit="return validateForm()">
+        <form  method="POST" onsubmit="return validateForm()">
             <label for="nim">NIM:</label>
             <input type="text"id="nim"name="nim"required>
             <label for="password">password:</label>

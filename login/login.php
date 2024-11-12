@@ -1,14 +1,14 @@
 <?php
-session_star();
+session_start();
 
-//periksa apakah sesi'username'sudah ada
-if(!isset($_SESSION['username'])){
+//periksa apakah sesi'nim'sudah ada
+if(!isset($_SESSION['nim'])){
     //jika sesi tidak ada, arahkan ke halaman login
     header("Location:index.php");
     exit();
 }
 
-$username=$_SESSION['username'];
+$nim=$_SESSION['nim'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +62,7 @@ $username=$_SESSION['username'];
     <h2>Welcome to the Dashboard</h2>
 
     <div class="welcome">
-        <p>selamat datang,<php echo htmlspecialchars($username);?>!</p>
+        <p>selamat datang,<php echo htmlspecialchars($nim);?>!</p>
         <p>Anda berhasil login ke sitem!</p>
     </div>
 

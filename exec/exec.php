@@ -1,3 +1,3 @@
 <?php
-$localhost = "php -s localhost:8000 -t C:\xampp\htdocs\Proyek Suradi";
+$localhost = "php -S localhost:4000 -t C:\xampp\htdocs\ProyekSuradi";
 shell_exec($localhost);
